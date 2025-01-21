@@ -7,7 +7,7 @@
 #include <errno.h>
 #include "LogStream.h"
 #include<functional>
-#include "muduo-core/Timestamp.h"
+#include "Timestamp.h"
 
 #define OPEN_LOGGING
 

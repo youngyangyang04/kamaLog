@@ -1,4 +1,4 @@
-#include "muduo-core/CurrentThread.h"
+#include "CurrentThread.h"
 
 namespace CurrentThread
 {
