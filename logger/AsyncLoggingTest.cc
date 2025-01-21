@@ -54,7 +54,7 @@ int main(int argc, char* argv[])
 
     //使用std::stringstream 构建日志文件夹
     std::ostringstream LogfilePath;
-    LogfilePath << LogDir << "/" << ::basename(argv[0]) << ".log"; // 完整的日志文件路径
+    LogfilePath << LogDir << "/" << ::basename(argv[0]); // 完整的日志文件路径
     AsyncLogging log(LogfilePath.str(), kRollSize);
     test_Logging();
 
