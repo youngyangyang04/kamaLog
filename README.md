@@ -7,6 +7,13 @@
 ## 运行环境
 - Ubuntu 22.04 LTS
 - C++11及以上
+- 
+## 基本工具安装：
+
+```shell
+sudo apt-get update
+sudo apt-get install -y wget cmake build-essential unzip git make
+```
 
 ## 编译指令
 
