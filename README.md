@@ -13,12 +13,13 @@
 第一步：进入到项目文件夹
 
 ```shell 
-cd kamaLog
+cd kamaLog 
 ```
 
 第二步：生成项目可执行程序
 
 ```shell
+cd logger
 make
 ```
 
